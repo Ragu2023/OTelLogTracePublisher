@@ -69,8 +69,8 @@ namespace EventGenerator
                         h.AddDashesToOption = true;
                         h.AdditionalNewLineAfterOption = false;
                         //TODO: Set the real version
-                        h.Heading = "PipelineAgent v0.1b";
-                        h.Copyright = "Copyright (c) Microsoft";
+                        h.Heading = "EventGenerator v0.1b";
+                        h.Copyright = "Copyright (c)";
                         return HelpText.DefaultParsingErrorsHandler(result, h);
                     },
                     e => e);
